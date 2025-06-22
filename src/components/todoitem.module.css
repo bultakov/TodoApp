@@ -35,3 +35,20 @@
 .item:hover .itemName {
   color: #667eea;
 }
+
+.deleteButton {
+  float: right;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 12px 20px;
+  margin-top: -10px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
